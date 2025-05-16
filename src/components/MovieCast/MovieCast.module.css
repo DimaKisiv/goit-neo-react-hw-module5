@@ -1,0 +1,24 @@
+.castWrapper {
+  margin-top: 24px;
+}
+
+.castList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.castItem {
+  background: #f7faff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 12px;
+  text-align: center;
+}
+
+.error {
+  color: #d32f2f;
+}
